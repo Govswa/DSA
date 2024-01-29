@@ -1,4 +1,4 @@
-package com.dsa.prac.array;
+package com.dsa.prac.searching;
 
 public class LinearSearch {
 
@@ -13,9 +13,11 @@ public class LinearSearch {
 
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 4, 5 };
-		System.out.println(linearSearch(a, 5));
+		int key = 5;
+		System.out.println(key + " at index: " + linearSearch(a, key));
 
 		int[] a1 = { 5, 4, 3, 2, 1 };
-		System.out.println(linearSearch(a1, 3));
+		key = 3;
+		System.out.println(key + " at index: " + linearSearch(a1, key));
 	}
 }
